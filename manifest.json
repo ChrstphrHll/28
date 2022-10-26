@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "1028!",
+    "description": "Points out all the 28s and 1028s you see",
+    "version": "1.0",
+    "action": {
+      "default_popup": "28.html",
+      "default_icon": "28.png"
+    }
+  }
