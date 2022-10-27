@@ -1,10 +1,14 @@
 {
-    "manifest_version": 3,
-    "name": "1028!",
-    "description": "Points out all the 28s and 1028s you see",
-    "version": "1.0",
-    "action": {
-      "default_popup": "28.html",
-      "default_icon": "28.png"
-    }
-  }
+	"manifest_version": 2,
+	"name": "1028 Substitutions",
+	"version": "1.0",
+	"description": "Points out 28s and 1028s, a gift for my sister's birthday",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
