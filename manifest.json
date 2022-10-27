@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
 	"name": "1028 Substitutions",
-	"version": "1.0",
-	"description": "Points out 28s and 1028s, a gift for my sister's birthday",
+	"version": "0.0.0.1",
+	"description": "Points out 28s and 1028s; a gift for my sister's birthday",
 	"content_scripts": 
 	[
 		{
@@ -10,5 +10,11 @@
 			"js": ["content_script.js"],
 			"run_at": "document_end"
 		}
-	]
+	],
+    "icons": {
+        "16": "28.png",
+        "32": "28.png",
+        "48": "28.png",
+        "128": "28.png"
+    }
 }
